@@ -1,0 +1,14 @@
+.headerIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}
+
+.headerIcon__image {
+    cursor: pointer;
+}
+
+.headerIcon__image:hover {
+    opacity: .85;
+}
