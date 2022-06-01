@@ -1,13 +1,13 @@
 import React, {FC} from 'react';
 import s from './Title.module.scss'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {IconProp} from '@fortawesome/fontawesome-svg-core';
 
 
 type TitleProps = {
     title: string
     accentTitle?: string
-    icon: any
+    icon: IconProp
 }
 
 export const Title: FC<TitleProps> = ({title, accentTitle, icon}) => {

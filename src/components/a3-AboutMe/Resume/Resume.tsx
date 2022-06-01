@@ -1,7 +1,6 @@
 import {Experience} from './Experience/Experience';
 import {Skills} from './Skills/Skills';
 import React, {useState} from 'react';
-// @ts-ignore
 import s from './Resume.module.scss';
 
 

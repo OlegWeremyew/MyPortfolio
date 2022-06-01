@@ -12,33 +12,27 @@ const experience = [
     },
     {
         id: v1(),
-        company: 'https://rollingscopes.com/',
-        title: 'JavaScript / Front-end',
-        description: 'The Rolling Scopes School, 2020'
-    },
-    {
-        id: v1(),
-        company: 'https://andersenlab.com/',
-        title: 'Andersen JavaScript Course',
-        description: 'Andersen, 2020'
+        company: 'https://htmlacademy.ru/',
+        title: 'JavaScript for beginners',
+        description: 'HTML Academy, 2021'
     },
     {
         id: v1(),
         company: 'https://htmlacademy.ru/',
         title: 'Professional HTML &CSS. Responsive layout and automation',
-        description: 'HTML Academy, 2019'
+        description: 'HTML Academy, 2021'
     },
     {
         id: v1(),
-        company: 'https://htmlacademy.ru/',
-        title: 'JavaScript for beginners',
-        description: 'HTML Academy, 2019'
+        company: 'https://ispeak-school.by/',
+        title: 'iSpeak',
+        description: 'Design engineer / Process engineer'
     },
     {
         id: v1(),
-        company: 'https://www.sbmt.bsu.by/',
-        title: 'Bachelor degree in logistics',
-        description: 'Belarusian State University, School of Business and Management, 2015'
+        company: 'https://en.bntu.by/',
+        title: 'Belarusian National Technical University',
+        description: 'English courses'
     },
 ]
 
