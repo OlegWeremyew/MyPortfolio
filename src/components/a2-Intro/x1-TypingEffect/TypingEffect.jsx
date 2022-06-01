@@ -7,10 +7,10 @@ export const TypingEffect = () => {
     return (
         <ReactTypingEffect
             className={`${s.textIntro} ${s.textIntroAccent}`}
-            speed={80}
+            speed={100}
             eraseSpeed={30}
-            eraseDelay={3000}
-            text={["Frontend developer"]}
+            eraseDelay={2000}
+            text={["Frontend developer", "React developer"]}
             cursor=''
         />
     );

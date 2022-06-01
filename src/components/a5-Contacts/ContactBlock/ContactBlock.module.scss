@@ -1,0 +1,67 @@
+@import "src/assets/sass/variables";
+
+.contactBox {
+  display: flex;
+  padding: 0 24px;
+  justify-content: center;
+}
+
+.contactList {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 90%;
+  padding: 24px;
+  background: $bgPrimary;
+  border: 1px solid $border;
+  margin: 0;
+  list-style: none;
+}
+
+li a:hover {
+  color: $accentText;
+  text-decoration: underline;
+}
+
+.contactList li {
+  width: 45%;
+}
+
+.contactTitle {
+  color: $accentText;
+  margin: 18px 0;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contactText {
+  color: $secondaryText;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.contactIcon {
+  padding-right: 10px;
+  opacity: 0.8;
+}
+
+@media (max-width: 1050px) {
+  .contactText {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  .contactBox {
+    flex-direction: column;
+    padding: 20px 24px;
+  }
+
+  .contactList {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

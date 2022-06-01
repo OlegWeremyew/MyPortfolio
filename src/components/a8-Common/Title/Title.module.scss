@@ -40,14 +40,25 @@
 .outerLine {
   display: inline-block;
   vertical-align: middle;
-  border-bottom: 1px solid $line;
+  border-bottom: 3px solid $line;
   width: 25%;
+}
+
+.outerLine:hover {
+  border-bottom: 3px solid $accentText;
 }
 
 
 .aboutIcon {
   margin: 0 20px;
   color: $accentText;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.aboutIcon:hover {
+  margin: 0 20px;
+  color: $primaryText;
   font-size: 20px;
 }
 

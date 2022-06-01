@@ -18,9 +18,9 @@ export const Title: FC<TitleProps> = ({title, accentTitle, icon}) => {
                 <span className={s.aboutTitle_yellow}>{accentTitle}</span>
             </h2>
             <div className={s.aboutWrapperIcon}>
-                <span className={s.outerLine}></span>
+                <span className={s.outerLine}/>
                 <span className={s.aboutIcon}><FontAwesomeIcon icon={icon}/></span>
-                <span className={s.outerLine}></span>
+                <span className={s.outerLine}/>
             </div>
         </>
     )

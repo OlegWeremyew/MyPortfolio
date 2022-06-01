@@ -39,11 +39,12 @@
       align-items: center;
       justify-content: center;
       width: 30%;
+      border-radius: 50%;
       min-height: 140px;
-
+      
       .aboutIcon {
-        width: 30px;
-        height: 30px;
+        width: 50px;
+        height: 50px;
       }
 
       .skillTitle {
@@ -52,6 +53,13 @@
         font-weight: 600;
         font-size: 15px;
         word-wrap:  break-word;
+
+        &:hover {
+          color: $accentTextHover;
+          text-decoration: underline;
+          cursor: pointer;
+        }
+
       }
     }
   }
@@ -136,6 +144,7 @@
       .skillItem {
         width: 48%;
         min-height: 100px;
+        margin-bottom: 10px;
 
         .aboutIcon {
           font-size: 20px;

@@ -7,7 +7,7 @@ export const Intro = () => {
     return (
         <a className={`${s.box} ${s.borderBtmRight}`}>
             <span className={s.textIntro}>Hi There! I'm</span>
-            <span className={s.textIntroName}>Maria Syrokvash</span>
+            <span className={s.textIntroName}>Oleg Veremyev</span>
             <TypingEffect />
         </a>
     );

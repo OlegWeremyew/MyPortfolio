@@ -44,7 +44,7 @@ export const PersonalInfo = () => {
             </div>
             <div className={s.resume}>
                 <a className={s.resumeLink}
-                   href={MyPDF} download={'cv_Maria_Syrokvash'}
+                   href={MyPDF} download={'CV_OlegVeremyev'}
                    target="_blank" rel="noopener noreferrer">Download CV</a>
             </div>
         </div>

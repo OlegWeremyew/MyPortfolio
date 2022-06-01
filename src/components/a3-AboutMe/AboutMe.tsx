@@ -18,7 +18,7 @@ export const AboutMe = () => {
                     <Resume/>
                 </div>
             </div>
-            <NavLink to={'/'} className={app.linkBack}><img src={close} alt='about me'/></NavLink>
+            <NavLink to={'/'} className={app.linkBack}><img className={s.imageClose} src={close} alt='about me'/></NavLink>
         </div>
     );
 }
