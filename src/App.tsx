@@ -1,16 +1,23 @@
 import React from 'react';
-import './App.css';
-import {Header} from "./components/Header/Header";
-import {Footer} from "./components/Footer/Footer";
-import {Intro} from "./components/Intro/Intro";
+import s from './App.module.scss';
+import {RoutesComponent} from "./components/a7-RoutesComponent/Routes";
+import {Avatar} from "./components/a1-Avatar/Avatar";
+import {Menu} from "./components/a6-Menu/Menu";
 
-function App() {
+const App = () => {
     return (
-        <div className="App">
-            <Header/>
-            <Intro/>
-            <Footer/>
+        <div className={s.wrapper}>
+            <div className={s.leftBox}>
+                <Avatar/>
+            </div>
+            <div className={s.rightBox}>
+
+                <Menu/>
+                <RoutesComponent/>
+
+            </div>
         </div>
+
     );
 }
 
