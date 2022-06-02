@@ -3,12 +3,7 @@ import {Route, Routes} from 'react-router-dom';
 import {AboutMe} from '../a3-AboutMe/AboutMe';
 import {Portfolio} from "../a4-Portfolio/Portfolio";
 import {Contacts} from "../a5-Contacts/Contacts";
-
-export const PATH = {
-    ABOUT: '/about',
-    PORTFOLIO: '/portfolio',
-    CONTACTS: '/contacts',
-}
+import {PATH} from "./constants";
 
 export const RoutesComponent = () => {
     return (

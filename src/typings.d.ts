@@ -25,3 +25,6 @@ declare module '*.svg' {
 declare module '*.jpg' {
     export default "" as string;
 }
+declare module '*.pdf' {
+    export default "" as string;
+}

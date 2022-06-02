@@ -30,13 +30,13 @@
 }
 
 .imageClose {
-  padding: 13px;
+  padding: 10px;
   border-radius: 50%;
   background-color: $border;
-}
 
-.imageClose:hover {
-  background-color: $line;
+  &:hover {
+    background-color: $line;
+  }
 }
 
 .animation {
@@ -56,7 +56,9 @@
 
 
 @media (max-width: 900px) {
-
+  .imageClose {
+    padding: 5px;
+  }
 }
 
 @media (max-width: 600px) {

@@ -8,9 +8,14 @@
     .personalInfoTitle {
       display: flex;
 
+      &:hover {
+        color: $accentTextHover;
+        cursor: pointer;
+      }
+
       .personalIcon {
         padding-right: 10px;
-        font-size: 16px;
+        font-size: 20px;
       }
 
       .personalInfoHeading {
@@ -83,7 +88,7 @@
 
     .resumeLink {
       display: flex;
-      justify-content: center;
+      justify-content: space-evenly;
       align-items: center;
       text-decoration: none;
       font-size: 15px;
