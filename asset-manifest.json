@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.b2ca084a.css",
-    "main.js": "/MyPortfolio/static/js/main.95c789fb.js",
+    "main.js": "/MyPortfolio/static/js/main.edef8660.js",
     "static/media/learnCards.jpg": "/MyPortfolio/static/media/learnCards.d51cfe933081d1701dcf.jpg",
     "static/media/bookShop.jpg": "/MyPortfolio/static/media/bookShop.a0a982578f3bee32d4b1.jpg",
     "static/media/cv.pdf": "/MyPortfolio/static/media/cv.50b5a579c6d94ab6b8ca.pdf",
@@ -29,16 +29,16 @@
     "static/media/chakra-ui.svg": "/MyPortfolio/static/media/chakra-ui.76b6c3b7d3532ce2cbac2cdbcfe1ad7b.svg",
     "static/media/typescriptlang-icon.svg": "/MyPortfolio/static/media/typescriptlang-icon.05a94f10393db1154ddfdb1e7a094e00.svg",
     "static/media/trello.svg": "/MyPortfolio/static/media/trello.7ee011f722ff63c772a2bb4e8fba2ffa.svg",
-    "index.html": "/MyPortfolio/index.html",
     "static/media/storybook.svg": "/MyPortfolio/static/media/storybook.3dc611862e2197db4e4acc26ef03fe25.svg",
+    "index.html": "/MyPortfolio/index.html",
     "static/media/npm.svg": "/MyPortfolio/static/media/npm.c2bd140750bdc472a9a61910a65c3830.svg",
     "static/media/html.svg": "/MyPortfolio/static/media/html.50ff4e6591978da5349b565cfa97ab39.svg",
     "static/media/css3.svg": "/MyPortfolio/static/media/css3.b417eec5a18c9fb8b1054fa3500e3dcd.svg",
     "main.b2ca084a.css.map": "/MyPortfolio/static/css/main.b2ca084a.css.map",
-    "main.95c789fb.js.map": "/MyPortfolio/static/js/main.95c789fb.js.map"
+    "main.edef8660.js.map": "/MyPortfolio/static/js/main.edef8660.js.map"
   },
   "entrypoints": [
     "static/css/main.b2ca084a.css",
-    "static/js/main.95c789fb.js"
+    "static/js/main.edef8660.js"
   ]
 }
