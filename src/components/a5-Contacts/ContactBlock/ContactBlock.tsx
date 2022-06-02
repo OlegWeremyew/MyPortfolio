@@ -19,7 +19,7 @@ export const ContactBlock = () => {
                             ? <a className={s.contactText} target='_blank' href="tel:+375173582979" rel="noreferrer">{el.text}</a>
                             : el.text === 'Go to mail'
                                 ? <a className={s.contactText} target='_blank'
-                                     href='https://mail.ru/olegweremey1994@mail.ru' rel="noreferrer">{el.text}</a>
+                                     href='mailto:olegweremey1994@mail.ru' rel="noreferrer">{el.text}</a>
                                 : el.text === 'Go to telegram'
                                     ? <a className={s.contactText} target='_blank'
                                          href='https://t.me/olegwerem' rel="noreferrer">{el.text}</a>
