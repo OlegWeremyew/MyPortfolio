@@ -4,4 +4,5 @@ export type ProjectItemType = {
     demo: string
     github: string
     image: string
+    description: string
 }

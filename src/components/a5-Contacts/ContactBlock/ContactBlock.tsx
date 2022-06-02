@@ -23,13 +23,7 @@ export const ContactBlock = () => {
                                 : el.text === 'Go to telegram'
                                     ? <a className={s.contactText} target='_blank'
                                          href='https://t.me/olegwerem' rel="noreferrer">{el.text}</a>
-                                    : el.text === 'Go to Skype'
-                                        ? <a className={s.contactText} target='_blank'
-                                             href='skype:live:c8a5b007ba674ab?call' rel="noreferrer">{el.text}</a>
-                                        : el.text === 'Go to Gmail'
-                                            ? <a className={s.contactText} target='_blank'
-                                                 href='https://olegweremey103151@gmail.com' rel="noreferrer">{el.text}</a>
-                                            : <span className={s.contactText}>{el.text}</span>
+                                    : <span className={s.contactText}>{el.text}</span>
                 }
             </li>
         )

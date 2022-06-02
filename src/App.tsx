@@ -11,7 +11,6 @@ const App = () => {
                 <Avatar/>
             </div>
             <div className={s.rightBox}>
-
                 <Menu/>
                 <RoutesComponent/>
 

@@ -12,6 +12,26 @@
   width: 450px;
   margin-bottom: 20px;
 
+  h1 {
+    margin: 0 0 5px 0;
+    padding: 0;
+    text-align: center;
+    color: $accentText;
+  }
+
+  p {
+    margin: 0;
+    padding:5px 0;
+    font-size: 17px;
+    color: $accentText;
+    text-align: justify;
+
+    &:first-letter {
+      padding-left: 20px;
+    }
+
+  }
+
   .tile {
     display: inline-block;
     margin: 10px;
@@ -27,7 +47,8 @@
     &:hover {
       border: 3px solid $accentText;
       transition: all 0.5s linear;
-    };
+    }
+  ;
 
     img {
       display: block;

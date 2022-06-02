@@ -10,6 +10,7 @@ export const Projects = () => {
     const projects = project.map(project => {
         return (
             <div className={s.tiles} key={project.id}>
+                <h1>{project.heading}:</h1>
                 <div className={s.tile}>
                     <img src={project.image} className={s.projectImage} alt='project'/>
                     <div className={s.details}>
@@ -20,9 +21,12 @@ export const Projects = () => {
 						</span>
                         <span className={s.info}>
 							<FontAwesomeIcon icon={faGithub} className={s.icon}/>
-							<a href={project.github} className={s.link} target="_blank" rel="noreferrer">Github</a></span>
+							<a href={project.github} className={s.link} target="_blank"
+                               rel="noreferrer">Github</a></span>
                     </div>
                 </div>
+                <p>{project.description}</p>
+                <hr/>
             </div>
         )
     })

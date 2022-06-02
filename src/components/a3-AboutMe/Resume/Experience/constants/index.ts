@@ -21,8 +21,8 @@ export const experience: ExperienceItemType[] = [
         description: 'HTML Academy, 2021'
     }, {
         id: v1(),
-        company: 'https://htmlacademy.ru/',
-        title: 'https://www.freecodecamp.org/learn/responsive-web-design/',
+        company: 'https://www.freecodecamp.org/learn/responsive-web-design/',
+        title: 'Legacy Responsive Web Design',
         description: 'FreeCodeCamp, 2021'
     },
     {
