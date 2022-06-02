@@ -23,6 +23,9 @@ import figma from "../image/figma.svg";
 import coreldraw from "../image/coreldraw.svg";
 import jira from "../image/jira.svg";
 import trello from "../image/trello.svg";
+import npm from "../image/npm.svg";
+import yarn from "../image/yarn.svg";
+import nodejs from "../image/nodejs.svg";
 import {SkillsType} from "../types";
 
 export const skills: Array<SkillsType> = [
@@ -32,6 +35,7 @@ export const skills: Array<SkillsType> = [
     {id: v1(), skill: 'JavaScript', icon: js},
     {id: v1(), skill: 'HTML5', icon: html},
     {id: v1(), skill: 'CSS3', icon: css3},
+    {id: v1(), skill: 'NodeJS', icon: nodejs},
     {id: v1(), skill: 'Git', icon: git},
     {id: v1(), skill: 'GitHub', icon: github},
     {id: v1(), skill: 'React hooks', icon: react_hooks},
@@ -48,6 +52,8 @@ export const skills: Array<SkillsType> = [
     {id: v1(), skill: 'Adobe Photoshop', icon: adobe_photoshop},
     {id: v1(), skill: 'Figma', icon: figma},
     {id: v1(), skill: 'Corel Draw', icon: coreldraw},
+    {id: v1(), skill: 'NPM', icon: npm},
+    {id: v1(), skill: 'Yarn', icon: yarn},
     {id: v1(), skill: 'Jira', icon: jira},
     {id: v1(), skill: 'Trello', icon: trello},
 ]

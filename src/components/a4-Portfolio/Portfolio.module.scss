@@ -46,6 +46,11 @@
   &:hover {
     background-color: $line;
   }
+
+  &:active {
+    background-color: $accentTextHover;
+  }
+
 }
 
 .animation {

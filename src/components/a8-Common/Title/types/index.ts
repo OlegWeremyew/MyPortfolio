@@ -1,7 +1,7 @@
 import {IconProp} from "@fortawesome/fontawesome-svg-core";
 
-export type ContactsItem = {
+export type TitleProps = {
     title: string
-    text: string
+    accentTitle?: string
     icon: IconProp
 }

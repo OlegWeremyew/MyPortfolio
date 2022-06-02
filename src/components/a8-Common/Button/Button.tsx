@@ -1,11 +1,6 @@
-import React, {ButtonHTMLAttributes, DetailedHTMLProps} from "react";
+import React from "react";
 import s from "./Button.module.scss";
-
-type DefaultButtonPropsType = DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement>;
-
-type SuperButtonPropsType = DefaultButtonPropsType & {
-    activeClass?: boolean
-}
+import {SuperButtonPropsType} from "./types";
 
 const Button: React.FC<SuperButtonPropsType> = (
     {

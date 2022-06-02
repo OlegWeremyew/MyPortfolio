@@ -28,3 +28,4 @@ declare module '*.jpg' {
 declare module '*.pdf' {
     export default "" as string;
 }
+
