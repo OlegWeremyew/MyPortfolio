@@ -17,19 +17,19 @@ export const project: ProjectItemType[] = [
     },
     {
         id: v1(),
+        heading: 'Quiz cards',
+        demo: 'https://olegweremyew.github.io/QuizCards/#/profile',
+        github: 'https://github.com/OlegWeremyew/QuizCards',
+        image: quizCards,
+        description: `Quiz cards is an app for learning question and answer cards. You can create your own cards, edit them, delete them. you can also study the maps of other users`,
+    },
+    {
+        id: v1(),
         heading: 'Social NetWork',
         demo: 'https://olegweremyew.github.io/social_network/',
         github: 'https://github.com/OlegWeremyew/social_network',
         image: socialNwtWork,
         description: "A social network is a website that allows people with similar interests to come together and share information, photos and videos.",
-    },
-    {
-        id: v1(),
-        heading: 'Quiz cards',
-        demo: 'https://olegweremyew.github.io/React-Cards/',
-        github: 'https://github.com/OlegWeremyew/React-Cards',
-        image: quizCards,
-        description: `Quiz cards is an app for learning question and answer cards. You can create your own cards, edit them, delete them. you can also study the maps of other users`,
     },
     {
         id: v1(),
