@@ -4,6 +4,7 @@ import socialNwtWork from "../projectCover/socialNetWork.jpg";
 import quizCards from "../projectCover/learnCards.jpg";
 import bookShop from "../projectCover/bookShop.jpg";
 import calculator from "../projectCover/calculator.jpg";
+import pizza from "../projectCover/pizza.jpg";
 import {ProjectItemType} from "../types";
 
 export const project: ProjectItemType[] = [
@@ -34,10 +35,18 @@ export const project: ProjectItemType[] = [
     {
         id: v1(),
         heading: 'Book shop',
-        demo: 'https://olegweremyew.github.io/mui-shop-project/',
-        github: 'https://github.com/OlegWeremyew/mui-shop-project',
+        demo: 'https://OlegWeremyew.github.io/BookShop',
+        github: 'https://github.com/OlegWeremyew/BookShop',
         image: bookShop,
         description: "The bookstore is an application for online search and purchase of books of interest to you.",
+    },
+    {
+        id: v1(),
+        heading: 'Go Pizza',
+        demo: 'https://olegweremyew.github.io/goPizza',
+        github: 'https://github.com/OlegWeremyew/goPizza',
+        image: pizza,
+        description: "In this application, you can find a pizza to your taste and make an online purchase.",
     },
     {
         id: v1(),
