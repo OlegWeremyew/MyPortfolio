@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.b2ca084a.css",
-    "main.js": "/MyPortfolio/static/js/main.d6903f9c.js",
+    "main.js": "/MyPortfolio/static/js/main.f405bfa1.js",
     "static/media/learnCards.jpg": "/MyPortfolio/static/media/learnCards.d51cfe933081d1701dcf.jpg",
     "static/media/bookShop.jpg": "/MyPortfolio/static/media/bookShop.a0a982578f3bee32d4b1.jpg",
     "static/media/cv.pdf": "/MyPortfolio/static/media/cv.451d1285835b59d375c9.pdf",
     "static/media/ava2red3.png": "/MyPortfolio/static/media/ava2red3.9c05c071b3d0874336ec.png",
+    "static/media/pizza.jpg": "/MyPortfolio/static/media/pizza.ca577c0a654178da62e4.jpg",
     "static/media/socialNetWork.jpg": "/MyPortfolio/static/media/socialNetWork.c91422a8836abbe8f947.jpg",
     "static/media/calculator.jpg": "/MyPortfolio/static/media/calculator.a554ddfc716aa3daf697.jpg",
     "static/media/todolist.jpg": "/MyPortfolio/static/media/todolist.7687c45c56121d018a8d.jpg",
@@ -35,10 +36,10 @@
     "static/media/html.svg": "/MyPortfolio/static/media/html.50ff4e6591978da5349b565cfa97ab39.svg",
     "static/media/css3.svg": "/MyPortfolio/static/media/css3.b417eec5a18c9fb8b1054fa3500e3dcd.svg",
     "main.b2ca084a.css.map": "/MyPortfolio/static/css/main.b2ca084a.css.map",
-    "main.d6903f9c.js.map": "/MyPortfolio/static/js/main.d6903f9c.js.map"
+    "main.f405bfa1.js.map": "/MyPortfolio/static/js/main.f405bfa1.js.map"
   },
   "entrypoints": [
     "static/css/main.b2ca084a.css",
-    "static/js/main.d6903f9c.js"
+    "static/js/main.f405bfa1.js"
   ]
 }
