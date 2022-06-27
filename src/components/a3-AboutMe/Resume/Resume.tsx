@@ -1,10 +1,10 @@
 import {Experience} from './Experience/Experience';
 import {Skills} from './Skills/Skills';
-import React, {useState} from 'react';
+import React, {FC, useState} from 'react';
 import s from './Resume.module.scss';
 
 
-export const Resume = () => {
+export const Resume: FC = () => {
     const [activeComponent, setActiveComponent] = useState(true)
 
     const experienceClickHandler = () => setActiveComponent(true)

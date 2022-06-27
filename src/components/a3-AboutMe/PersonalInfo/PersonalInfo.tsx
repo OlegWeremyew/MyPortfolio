@@ -1,12 +1,12 @@
 import s from './PersonalInfo.module.scss';
-import React from 'react';
+import React, {FC} from 'react';
 import {faUser} from '@fortawesome/free-solid-svg-icons';
 import {faFileArrowDown} from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import MyPDF from './cv/cv.pdf';
 import {personalInfo} from "./constants";
 
-export const PersonalInfo = () => {
+export const PersonalInfo: FC = () => {
 
     const info = personalInfo.map((el, index) => {
         return <li className={s.personalInfoItem} key={index}>

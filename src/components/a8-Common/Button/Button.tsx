@@ -1,8 +1,8 @@
-import React from "react";
+import React, {FC} from "react";
 import s from "./Button.module.scss";
 import {SuperButtonPropsType} from "./types";
 
-const Button: React.FC<SuperButtonPropsType> = (
+const Button: FC<SuperButtonPropsType> = (
     {
         activeClass, className,
         ...restProps

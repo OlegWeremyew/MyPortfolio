@@ -1,4 +1,5 @@
-import {PersonalInfoType} from "../types";
+import {PersonalInfoType} from "components/a3-AboutMe/PersonalInfo/types";
+
 
 export const personalInfo: PersonalInfoType = [
     {title: 'First Name: ', content: 'Oleg'},

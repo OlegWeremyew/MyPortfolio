@@ -1,8 +1,8 @@
-import React from 'react';
+import React, {FC} from 'react';
 import s from './Experience.module.scss'
 import {experience} from "./constants";
 
-export const Experience = () => {
+export const Experience: FC = () => {
 
     const experienceList = experience.map(exp => {
         return <li key={exp.id} className={s.expItem}>

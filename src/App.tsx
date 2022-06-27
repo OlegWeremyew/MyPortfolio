@@ -1,10 +1,10 @@
-import React from 'react';
+import React, {FC} from 'react';
 import s from './App.module.scss';
-import {RoutesComponent} from "./components/a7-RoutesComponent/Routes";
-import {Avatar} from "./components/a1-Avatar/Avatar";
-import {Menu} from "./components/a6-Menu/Menu";
+import {Avatar} from "components/a1-Avatar/Avatar";
+import {Menu} from "components/a6-Menu/Menu";
+import {RoutesComponent} from "components/a7-RoutesComponent/Routes";
 
-const App = () => {
+export const App: FC = () => {
     return (
         <div className={s.wrapper}>
             <div className={s.leftBox}>
@@ -13,11 +13,7 @@ const App = () => {
             <div className={s.rightBox}>
                 <Menu/>
                 <RoutesComponent/>
-
             </div>
         </div>
-
     );
 }
-
-export default App;

@@ -1,11 +1,11 @@
-import React from 'react';
+import React, {FC} from 'react';
 import s from './Projects.module.scss';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
 import {faEye} from '@fortawesome/free-regular-svg-icons';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {project} from "./constants";
 
-export const Projects = () => {
+export const Projects: FC = () => {
 
     const projects = project.map(project => {
         return (
