@@ -14,12 +14,12 @@ export const Experience: FC = () => {
 
     return (
         <div className={`${s.expBox} ${s.animation}`}>
-            <div className={s.expBoxTitle}>
-                <h3 className={s.expTitle}>Education</h3>
-            </div>
-            <ul className={s.expList}>
-                {experienceList}
-            </ul>
+                <div className={s.expBoxTitle}>
+                    <h3 className={s.expTitle}>Education</h3>
+                </div>
+                <ul className={s.expList}>
+                    {experienceList}
+                </ul>
         </div>
     )
 }

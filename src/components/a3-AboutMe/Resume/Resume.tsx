@@ -1,5 +1,5 @@
-import {Experience} from './Experience/Experience';
-import {Skills} from './Skills/Skills';
+import {Experience} from './Experience';
+import {Skills} from './Skills';
 import React, {FC, useState} from 'react';
 import s from './Resume.module.scss';
 

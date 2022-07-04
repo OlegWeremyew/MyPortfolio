@@ -1,8 +1,8 @@
 import React, {FC} from 'react';
 import s from './App.module.scss';
-import {Avatar} from "components/a1-Avatar/Avatar";
 import {Menu} from "components/a6-Menu/Menu";
 import {RoutesComponent} from "components/a7-RoutesComponent/Routes";
+import {Avatar} from "components/a1-Avatar";
 
 export const App: FC = () => {
     return (

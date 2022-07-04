@@ -2,7 +2,7 @@ import React, {FC} from "react";
 import s from "./Button.module.scss";
 import {SuperButtonPropsType} from "./types";
 
-const Button: FC<SuperButtonPropsType> = (
+export const Button: FC<SuperButtonPropsType> = (
     {
         activeClass, className,
         ...restProps
@@ -17,5 +17,3 @@ const Button: FC<SuperButtonPropsType> = (
         />
     );
 }
-
-export default Button;

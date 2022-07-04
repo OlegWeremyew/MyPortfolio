@@ -2,7 +2,6 @@ import React, {FC} from 'react';
 import s from './Intro.module.scss'
 import {TypingEffect} from './x1-TypingEffect/TypingEffect';
 
-
 export const Intro: FC = () => {
     return (
         <a className={`${s.box} ${s.borderBtmRight}`}>

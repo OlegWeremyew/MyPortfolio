@@ -1,10 +1,10 @@
 import React, {FC} from 'react';
 import s from './Portfolio.module.scss'
 import {NavLink} from 'react-router-dom';
-import app from '../../App.module.scss';
+import app from '../../App/App.module.scss';
 import close from 'assets/image/close-button.png';
 import {faSuitcase} from '@fortawesome/free-solid-svg-icons';
-import {Projects} from './Projects/Projects';
+import {Projects} from './Projects';
 import {Title} from "components/a8-Common/Title/Title";
 
 export const Portfolio: FC = () => {

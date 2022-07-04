@@ -1,10 +1,10 @@
 import React, {FC} from 'react';
 import s from './AboutMe.module.scss'
 import close from 'assets/image/close-button.png'
-import app from '../../App.module.scss'
+import app from '../../App/App.module.scss'
 import {NavLink} from 'react-router-dom';
-import {Resume} from './Resume/Resume';
-import {PersonalInfo} from "./PersonalInfo/PersonalInfo";
+import {Resume} from './Resume';
+import {PersonalInfo} from "./PersonalInfo";
 import {faIdCard} from "@fortawesome/free-solid-svg-icons";
 import {Title} from "components/a8-Common/Title/Title";
 

@@ -5,6 +5,7 @@ import quizCards from "../projectCover/learnCards.jpg";
 import bookShop from "../projectCover/bookShop.jpg";
 import calculator from "../projectCover/calculator.jpg";
 import pizza from "../projectCover/pizza.jpg";
+import countries from "../projectCover/countries.jpg";
 import {ProjectItemType} from "../types";
 
 export const project: ProjectItemType[] = [
@@ -55,5 +56,13 @@ export const project: ProjectItemType[] = [
         github: 'https://github.com/OlegWeremyew/calculator',
         image: calculator,
         description: "This application is an online calculator with the ability to record the history of calculations, select a design theme, etc.",
+    },
+    {
+        id: v1(),
+        heading: 'Countries',
+        demo: 'https://olegweremyew.github.io/Countries/',
+        github: 'https://github.com/OlegWeremyew/Countries',
+        image: countries,
+        description: "An application in which you can find out various information about any country on our planet. You can sort countries by continents and names etc.",
     },
 ]
