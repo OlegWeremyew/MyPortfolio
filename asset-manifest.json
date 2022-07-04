@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.548a1086.css",
-    "main.js": "/MyPortfolio/static/js/main.9532c927.js",
+    "main.css": "/MyPortfolio/static/css/main.222e82e9.css",
+    "main.js": "/MyPortfolio/static/js/main.b92a5fbb.js",
     "static/media/learnCards.jpg": "/MyPortfolio/static/media/learnCards.d51cfe933081d1701dcf.jpg",
     "static/media/bookShop.jpg": "/MyPortfolio/static/media/bookShop.a0a982578f3bee32d4b1.jpg",
     "static/media/cv.pdf": "/MyPortfolio/static/media/cv.9b8c563abc3f70bcc016.pdf",
@@ -9,6 +9,7 @@
     "static/media/pizza.jpg": "/MyPortfolio/static/media/pizza.ca577c0a654178da62e4.jpg",
     "static/media/socialNetWork.jpg": "/MyPortfolio/static/media/socialNetWork.c91422a8836abbe8f947.jpg",
     "static/media/calculator.jpg": "/MyPortfolio/static/media/calculator.a554ddfc716aa3daf697.jpg",
+    "static/media/countries.jpg": "/MyPortfolio/static/media/countries.057d664e08ff1c9435b4.jpg",
     "static/media/todolist.jpg": "/MyPortfolio/static/media/todolist.7687c45c56121d018a8d.jpg",
     "static/media/postgresql.svg": "/MyPortfolio/static/media/postgresql.cd3bbf5f8b0f6bf4e51c4d7ef6431ff1.svg",
     "static/media/sass.svg": "/MyPortfolio/static/media/sass.06e879d819eec97e83f4c4b511eb5ada.svg",
@@ -35,11 +36,11 @@
     "static/media/npm.svg": "/MyPortfolio/static/media/npm.c2bd140750bdc472a9a61910a65c3830.svg",
     "static/media/html.svg": "/MyPortfolio/static/media/html.50ff4e6591978da5349b565cfa97ab39.svg",
     "static/media/css3.svg": "/MyPortfolio/static/media/css3.b417eec5a18c9fb8b1054fa3500e3dcd.svg",
-    "main.548a1086.css.map": "/MyPortfolio/static/css/main.548a1086.css.map",
-    "main.9532c927.js.map": "/MyPortfolio/static/js/main.9532c927.js.map"
+    "main.222e82e9.css.map": "/MyPortfolio/static/css/main.222e82e9.css.map",
+    "main.b92a5fbb.js.map": "/MyPortfolio/static/js/main.b92a5fbb.js.map"
   },
   "entrypoints": [
-    "static/css/main.548a1086.css",
-    "static/js/main.9532c927.js"
+    "static/css/main.222e82e9.css",
+    "static/js/main.b92a5fbb.js"
   ]
 }
