@@ -1,5 +1,5 @@
 export const PATH = {
-    ABOUT: '/about',
-    PORTFOLIO: '/portfolio',
-    CONTACTS: '/contacts',
-}
+  ABOUT: '/about',
+  PORTFOLIO: '/portfolio',
+  CONTACTS: '/contacts',
+};

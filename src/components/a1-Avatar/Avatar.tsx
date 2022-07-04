@@ -1,8 +1,4 @@
-import React, {FC} from 'react';
+import React, { FC } from 'react';
 import s from './Avatar.module.scss';
 
-export const Avatar: FC = () => {
-    return (
-        <div className={s.avatar}></div>
-    );
-}
+export const Avatar: FC = () => <div className={s.avatar} />;
