@@ -1,7 +1,10 @@
-import {ButtonHTMLAttributes, DetailedHTMLProps} from "react";
+import { ButtonHTMLAttributes, DetailedHTMLProps } from 'react';
 
-export type DefaultButtonPropsType = DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement>;
+export type DefaultButtonPropsType = DetailedHTMLProps<
+  ButtonHTMLAttributes<HTMLButtonElement>,
+  HTMLButtonElement
+>;
 
 export type SuperButtonPropsType = DefaultButtonPropsType & {
-    activeClass?: boolean
-}
+  activeClass?: boolean;
+};
