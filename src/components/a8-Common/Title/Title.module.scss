@@ -42,24 +42,29 @@
   vertical-align: middle;
   border-bottom: 3px solid $line;
   width: 25%;
-}
+  transition: all .3s linear;
 
-.outerLine:hover {
-  border-bottom: 3px solid $accentText;
-}
+  &:hover {
+    border-bottom: 3px solid $accentText;
+    transition: all .3s linear;
+  }
 
+}
 
 .aboutIcon {
   margin: 0 20px;
   color: $accentText;
   font-size: 20px;
   cursor: pointer;
-}
+  transition: all .2s linear;
 
-.aboutIcon:hover {
-  margin: 0 20px;
-  color: $primaryText;
-  font-size: 20px;
+  &:hover {
+    margin: 0 20px;
+    color: $primaryText;
+    font-size: 20px;
+    transition: all .2s linear;
+  }
+
 }
 
 

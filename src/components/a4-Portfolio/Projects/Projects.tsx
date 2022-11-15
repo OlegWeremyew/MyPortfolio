@@ -4,12 +4,22 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEye } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { project } from './constants';
+import { ProjectItemType } from 'components/a4-Portfolio/Projects/types';
+import petProject from './projectStatus/pet-project.png';
+import jobProject from './projectStatus/job-project.png';
 
 export const Projects: FC = () => {
-  const projects = project.map(project => (
+  const projects = project.map((project: ProjectItemType) => (
     <div className={s.tiles} key={project.id}>
       <h1>{project.heading}:</h1>
       <div className={s.tile}>
+        <div className={s.projectStatus}>
+          <img
+            src={project.github ? petProject : jobProject}
+            alt={project.github ? 'Pet project' : 'Job project'}
+          />
+          <span>{project.github ? 'Pet project' : 'Job project'}</span>
+        </div>
         <img src={project.image} className={s.projectImage} alt="project" />
         <div className={s.details}>
           <span className={s.title}>{project.heading}</span>
@@ -20,10 +30,21 @@ export const Projects: FC = () => {
             </a>
           </span>
           <span className={s.info}>
-            <FontAwesomeIcon icon={faGithub} className={s.icon} />
-            <a href={project.github} className={s.link} target="_blank" rel="noreferrer">
-              Github
-            </a>
+            {project.github && <FontAwesomeIcon icon={faGithub} className={s.icon} />}
+            <>
+              {!project.github ? (
+                <span className={s.notLink}>Sorry, privet repository</span>
+              ) : (
+                <a
+                  href={project.github}
+                  className={s.link}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Go to GitHub repository
+                </a>
+              )}
+            </>
           </span>
         </div>
       </div>

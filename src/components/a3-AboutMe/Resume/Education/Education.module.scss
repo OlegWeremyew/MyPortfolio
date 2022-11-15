@@ -34,7 +34,7 @@
       padding: 0;
       list-style: none;
       position: relative;
-      margin: 15px 0;
+      margin: 34px 0;
 
       .expItem::after {
         content: '';
@@ -47,63 +47,23 @@
       }
 
       .expLink {
-        font-size: 18px;
+        font-size: 14px;
+        line-height: 2;
         text-decoration: none;
-        color: $accentText;
+        color: $primaryText;
         cursor: pointer;
+      }
 
-        .expCompany {
-          padding: 0;
-          margin: 17px 0 10px;
-        }
-
-        &:hover {
-          opacity: 0.8;
-          text-decoration: underline;
-          width: 200px;
-        }
+      .expLink:hover {
+        color: $accentText;
       }
 
       .expHeading {
-        color: $secondaryText;
-        font-size: 16px;
+        color: $accentText;
+        font-size: 14px;
         line-height: 16.5px;
         font-weight: 600;
         margin: 0 0 10px;
-      }
-
-      .expValueUl {
-        color: $secondaryTextHover;
-        font-size: 16px;
-        line-height: 16.5px;
-        font-weight: 600;
-        margin: 7px 0;
-
-        .expValueLi {
-          padding-bottom: 7px;
-        }
-
-      }
-
-      .expValue {
-        color: $secondaryTextHover;
-        font-size: 16px;
-        line-height: 16.5px;
-        font-weight: 600;
-        margin: 0 0 10px;
-      }
-
-      .stackContainer {
-        margin: 5px 0 5px 20px;
-        padding: 0;
-        line-height: 1.5;
-
-        .stack {
-          color: $secondaryTextHover;
-          font-size: 16px;
-          font-weight: 600;
-          margin: 0 6px 5px;
-        }
       }
 
       .expYear {
@@ -115,7 +75,6 @@
       }
 
     }
-
     .expItem:last-child {
       padding-right: 130px;
     }

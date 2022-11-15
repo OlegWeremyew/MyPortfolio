@@ -21,7 +21,7 @@
 
   p {
     margin: 0;
-    padding:5px 0;
+    padding: 5px 0;
     font-size: 17px;
     color: $accentText;
     text-align: justify;
@@ -29,7 +29,6 @@
     &:first-letter {
       padding-left: 20px;
     }
-
   }
 
   .tile {
@@ -47,8 +46,44 @@
     &:hover {
       border: 3px solid $accentText;
       transition: all 0.5s linear;
+
+      .projectStatus {
+        opacity: 0;
+        transition: all 0.5s linear;
+      }
     }
-  ;
+
+    .projectStatus {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      border: 2px solid $primaryText;
+
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      width: 95px;
+      height: 80px;
+      background-color: #575252;
+      border-radius: 15px;
+
+      font-weight: 600;
+      font-size: 14px;
+      color: $secondaryTextHover;
+      transition: all 0.5s linear;
+
+      img {
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+      }
+
+      span {
+        margin: 0 auto;
+      }
+
+    }
 
     img {
       display: block;
@@ -59,10 +94,12 @@
     .details {
       font-size: 16px;
       padding: 20px;
-      color: #fff;
+      color: $primaryText;
       position: absolute;
       bottom: 0;
       left: 0;
+      transition-duration: 0.4s;
+      transition-delay: 0s;
 
       span {
         display: block;
@@ -70,7 +107,7 @@
         position: relative;
         top: 100px;
         transition-property: top, opacity;
-        transition-duration: 0.3s;
+        transition-duration: 0.4s;
         transition-delay: 0s;
       }
 
@@ -81,11 +118,8 @@
         margin-bottom: 15px;
         color: #ffb400;
       }
-
     }
-
   }
-
 }
 
 .projectImage {
@@ -101,26 +135,33 @@
   border-bottom-right-radius: 16px;
 }
 
+.notLink {
+  font-size: 15px;
+  text-decoration: none;
+  color: $primaryText;
+}
+
 .link {
   margin-left: 5px;
   font-size: 15px;
   text-decoration: none;
-  color: white;
+  color: $primaryText;
+
+  &:hover {
+    color: #ffb400;
+    transition: 0.3ms;
+  }
+
 }
 
 .icon {
-  color: #ffb400;
+  color: $accentText;
 }
 
 .info {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-}
-
-.link:hover {
-  color: #ffb400;
-  transition: 0.3ms;
 }
 
 .tiles .tile .details .info {

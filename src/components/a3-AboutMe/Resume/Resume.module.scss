@@ -43,10 +43,16 @@
   color: $accentText;
   cursor: pointer;
   border-radius: 3px;
+  transition: all .3s linear;
 
   &:hover {
     background-color: $bgThird;
     border: 1px solid $accentText;
+    transition: all .3s linear;
+  }
+
+  @media (max-width: 450px){
+    font-size: 13px;
   }
 
 }

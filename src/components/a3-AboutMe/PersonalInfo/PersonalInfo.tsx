@@ -23,10 +23,12 @@ export const PersonalInfo: FC = () => {
           <h4 className={s.personalInfoHeading}>Personal Info</h4>
         </div>
         <div className={s.personalDesc}>
-          I'm a frontend developer who has a results-focused attitude to creating SPA,
-          using React(JS/TS), Redux. My free time is dedicated to Codewars, programming
-          tutorials, and becoming familiar with NodeJS, because, in the future, I see
-          myself as a Full Stack Developer.
+          I'm a results driven front end developer building SPAs using React and Angular
+          (JS/TS). Also I have commercial experience with React Native and Gatsby. I have
+          experience with CSS frameworks, CSS libraries and CSS preprocessors. In the
+          course of work, I came across databases and docker. I have experience in
+          videoconferencing with clients.I have experience of working both in a team and
+          individually.
           <p className={s.subPersonalDesc}>
             Ready to consider project work and full-time employment.{' '}
           </p>

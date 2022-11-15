@@ -6,7 +6,7 @@ import Tilt from 'react-parallax-tilt';
 export const Skills: FC = () => {
   const skillsList = skills.map(skill => (
     <li key={skill.id} className={s.skillItem}>
-      <Tilt>
+      <Tilt tiltMaxAngleX={45} tiltMaxAngleY={45}>
         <img src={skill.icon} className={s.aboutIcon} alt="skill icon" />
       </Tilt>
       <p className={s.skillTitle}>{skill.skill}</p>

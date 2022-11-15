@@ -33,13 +33,17 @@
   padding: 10px;
   border-radius: 50%;
   background-color: $border;
+  transition: all 0.3s;
 
   &:hover {
     background-color: $line;
+    transition: all 0.3s;
   }
 
+
   &:active {
-    background-color: $accentTextHover;
+    background-color: $line;
+    opacity: 0.6;
   }
 
 }

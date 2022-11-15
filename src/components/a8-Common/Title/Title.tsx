@@ -6,12 +6,12 @@ import Tilt from 'react-parallax-tilt';
 
 export const Title: FC<TitleProps> = ({ title, accentTitle, icon }) => (
   <>
-    <Tilt>
-      <h2 className={s.aboutTitle}>
+    <h2 className={s.aboutTitle}>
+      <Tilt tiltMaxAngleY={10} tiltMaxAngleX={10}>
         <span className={s.aboutTitle_white}>{title}</span>
         <span className={s.aboutTitle_yellow}>{accentTitle}</span>
-      </h2>
-    </Tilt>
+      </Tilt>
+    </h2>
     <div className={s.aboutWrapperIcon}>
       <span className={s.outerLine} />
       <span className={s.aboutIcon}>

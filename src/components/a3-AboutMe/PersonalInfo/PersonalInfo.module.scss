@@ -62,6 +62,17 @@
           padding-bottom: 13px;
           font-weight: 700;
 
+          .contentLink {
+            color: $accentTextHover;
+            transition: all .5s linear;
+
+            &:hover {
+              opacity: 0.6;
+              text-decoration: none;
+              transition: all .5s linear;
+            }
+          }
+
           .title {
             margin-right: 8px;
             color: #ffb400;
@@ -80,10 +91,12 @@
     border: 1px solid $line;
     width: 200px;
     border-radius: 3px;
+    transition: all .3s linear;
 
     &:hover {
       background-color: $bgThird;
       border: 1px solid $accentText;
+      transition: all .3s linear;
     }
 
     .resumeLink {

@@ -1,4 +1,5 @@
 import { v1 } from 'uuid';
+import projectCover from '../projectCover/meetQI.jpg';
 import todolist from '../projectCover/todolist.jpg';
 import socialNwtWork from '../projectCover/socialNetWork.jpg';
 import quizCards from '../projectCover/learnCards.jpg';
@@ -9,6 +10,15 @@ import countries from '../projectCover/countries.jpg';
 import { ProjectItemType } from '../types';
 
 export const project: ProjectItemType[] = [
+  {
+    id: v1(),
+    heading: 'MeetQI',
+    demo: 'https://meetqi.com/',
+    github: '',
+    image: projectCover,
+    description:
+      'An application in which you can create video conferences, chat, create notes, keep event calendars, etc. The user can customize the interface to their liking, recording video conferences and much more is possible.',
+  },
   {
     id: v1(),
     heading: 'Todolist',
