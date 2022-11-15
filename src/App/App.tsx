@@ -1,8 +1,9 @@
-import React, { FC } from 'react';
+import React from 'react';
 import s from './App.module.scss';
 import { Menu, RoutesComponent, Avatar } from 'components';
+import { ReturnComponentType } from 'types';
 
-export const App: FC = () => (
+export const App = (): ReturnComponentType => (
   <div className={s.wrapper}>
     <div className={s.leftBox}>
       <Avatar />

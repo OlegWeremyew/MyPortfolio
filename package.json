@@ -1,5 +1,5 @@
 {
-  "name": "MyPortfolio",
+  "name": "my-portfolio",
   "homepage": "https://OlegWeremyew.github.io/MyPortfolio",
   "version": "0.1.0",
   "private": true,
@@ -67,6 +67,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "gh-pages": "^3.2.3",
     "prettier": "^2.7.1",
-    "puppeteer": "^15.3.0"
+    "puppeteer": "^15.3.0",
+    "react-tsparticles": "^2.1.3"
   }
 }
