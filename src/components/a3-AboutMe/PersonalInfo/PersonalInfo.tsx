@@ -45,7 +45,7 @@ export const PersonalInfo: FC = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <span>Download CV </span> <FontAwesomeIcon icon={faFileArrowDown} />
+          <span>Download CV</span> <FontAwesomeIcon icon={faFileArrowDown} />
         </a>
       </div>
     </div>
