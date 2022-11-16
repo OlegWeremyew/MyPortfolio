@@ -24,10 +24,23 @@ export const Projects: FC = () => {
         <div className={s.details}>
           <span className={s.title}>{project.heading}</span>
           <span className={s.info}>
-            <FontAwesomeIcon icon={faEye} className={s.icon} />
-            <a href={project.demo} className={s.link} target="_blank" rel="noreferrer">
-              Demo
-            </a>
+            {project.heading !== 'My guide' && (
+              <FontAwesomeIcon icon={faEye} className={s.icon} />
+            )}
+            <>
+              {project.heading === 'My guide' ? (
+                <span className={s.notLink}>Was not released</span>
+              ) : (
+                <a
+                  href={project.demo}
+                  className={s.link}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Demo
+                </a>
+              )}
+            </>
           </span>
           <span className={s.info}>
             {project.github && <FontAwesomeIcon icon={faGithub} className={s.icon} />}

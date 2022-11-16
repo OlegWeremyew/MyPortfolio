@@ -2,12 +2,17 @@ import React, { FC } from 'react';
 import s from './Experience.module.scss';
 import { experience } from './constants';
 import { ExperienceItemType } from 'components/a3-AboutMe/Resume/Experience/types';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMailForward } from '@fortawesome/free-solid-svg-icons';
 
 export const Experience: FC = () => {
   const experienceList = experience.map((exp: ExperienceItemType) => (
     <li key={exp.id} className={s.expItem}>
       <a className={s.expLink} href={exp.url} target="_blank" rel="noreferrer">
         <h3 className={s.expCompany}>{exp.company}</h3>
+        <span className={s.contactIcon}>
+          <FontAwesomeIcon icon={faMailForward} />
+        </span>
       </a>
       <p className={s.expHeading}>
         Position: <span className={s.expValue}>{exp.position}</span>

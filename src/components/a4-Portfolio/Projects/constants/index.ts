@@ -7,6 +7,8 @@ import bookShop from '../projectCover/bookShop.jpg';
 import calculator from '../projectCover/calculator.jpg';
 import pizza from '../projectCover/pizza.jpg';
 import countries from '../projectCover/countries.jpg';
+import alfacom from '../projectCover/alfacom.jpg';
+import myGuide from '../projectCover/my-guide.jpg';
 import { ProjectItemType } from '../types';
 
 export const project: ProjectItemType[] = [
@@ -18,6 +20,24 @@ export const project: ProjectItemType[] = [
     image: projectCover,
     description:
       'An application in which you can create video conferences, chat, create notes, keep event calendars, etc. The user can customize the interface to their liking, recording video conferences and much more is possible.',
+  },
+  {
+    id: v1(),
+    heading: 'Alfacom',
+    demo: 'https://apkpure.com/alfacom/snapcode.alfa.alfacom',
+    github: '',
+    image: alfacom,
+    description:
+      'Mobile application for coordinating the work of taxi drivers from the call center. Drivers can also interact with customers, work with maps and navigation, request new tasks and pauses from operators, have direct contact with customers through chats and calls, etc. Implemented work in offline mode, location tracking, processing of push notifications, etc.',
+  },
+  {
+    id: v1(),
+    heading: 'My guide',
+    demo: 'https://apkpure.com/alfacom/snapcode.alfa.alfacom',
+    github: '',
+    image: myGuide,
+    description:
+      'Mobile application for online registration of tourist or other entertainment events. the user has access to a personal account, a page of proposed entertainment, messages, a general chat, video calls, etc.',
   },
   {
     id: v1(),

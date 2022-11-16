@@ -43,24 +43,24 @@
         width: 70px;
         left: 0;
         bottom: -12px;
-        background: #ffb400;
+        background: $accentText;
       }
 
       .expLink {
-        font-size: 18px;
-        text-decoration: none;
-        color: $accentText;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 22px;
+        color: $secondaryTextHover;
         cursor: pointer;
 
         .expCompany {
-          padding: 0;
+          padding: 0 10px 5px 0;
           margin: 17px 0 10px;
         }
 
         &:hover {
           opacity: 0.8;
-          text-decoration: underline;
-          width: 200px;
         }
       }
 
@@ -73,7 +73,7 @@
       }
 
       .expValueUl {
-        color: $secondaryTextHover;
+        color: $accentText;
         font-size: 16px;
         line-height: 16.5px;
         font-weight: 600;
@@ -86,7 +86,7 @@
       }
 
       .expValue {
-        color: $secondaryTextHover;
+        color: $accentText;
         font-size: 16px;
         line-height: 16.5px;
         font-weight: 600;
@@ -99,7 +99,7 @@
         line-height: 1.5;
 
         .stack {
-          color: $secondaryTextHover;
+          color: $accentText;
           font-size: 16px;
           font-weight: 600;
           margin: 0 6px 5px;
