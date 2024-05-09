@@ -11,7 +11,7 @@ export const Skills: FC = () => {
         <Tilt tiltMaxAngleX={45} tiltMaxAngleY={45}>
           <img src={skill.icon} className={s.aboutIcon} alt="skill icon" />
         </Tilt>
-        {/* <p className={s.skillTitle}>{skill.skill}</p> */}
+        <p className={s.skillTitle}>{skill.skill}</p>
       </li>
     ),
   );
