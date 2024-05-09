@@ -4,6 +4,12 @@ import { EducationItemType } from '../types';
 export const experience: EducationItemType[] = [
   {
     id: v1(),
+    company: 'https://str.by/',
+    title: 'Streamline',
+    description: 'English courses, 2023-2024',
+  },
+  {
+    id: v1(),
     company: 'https://it-incubator.by/React-online.html',
     title: 'Front-end (React/Redux/Typescript)',
     description: 'IT-incubator, 2021',

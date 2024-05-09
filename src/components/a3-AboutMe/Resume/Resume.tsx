@@ -1,37 +1,42 @@
+import React, { FC, ReactElement, useCallback, useState } from 'react';
 import { Education } from './Education';
 import { Skills } from './Skills';
-import React, { FC, useCallback, useState } from 'react';
 import s from './Resume.module.scss';
 import { Experience } from 'components/a3-AboutMe/Resume/Experience/Experience';
 
-type ActiveBlockType = 'skills' | 'education' | 'experience';
+enum ActiveContent {
+  EDUCATION = 'education',
+  SKILLS = 'skills',
+  EXPERIENCE = 'experience',
+}
 
 export const Resume: FC = () => {
-  const [activeComponent, setActiveComponent] = useState<ActiveBlockType>('experience');
+  const [activeComponent, setActiveComponent] = useState<ActiveContent>(
+    ActiveContent.EXPERIENCE,
+  );
 
-  const educationClickHandler = (): void => setActiveComponent('education');
+  const educationClickHandler = (): void => setActiveComponent(ActiveContent.EDUCATION);
 
-  const skillsClickHandler = (): void => setActiveComponent('skills');
+  const skillsClickHandler = (): void => setActiveComponent(ActiveContent.SKILLS);
 
-  const experienceClickHandler = (): void => setActiveComponent('experience');
+  const experienceClickHandler = (): void => setActiveComponent(ActiveContent.EXPERIENCE);
 
-  const experienceClassName = `${activeComponent === 'experience' ? s.active : ''} ${
+  const experienceClassName = `${
+    activeComponent === ActiveContent.EXPERIENCE ? s.active : ''
+  } ${s.resumeBtn}`;
+  const educationClassName = `${
+    activeComponent === ActiveContent.EDUCATION ? s.active : ''
+  } ${s.resumeBtn}`;
+  const skillsClassName = `${activeComponent === ActiveContent.SKILLS ? s.active : ''} ${
     s.resumeBtn
   }`;
-  const educationClassName = `${activeComponent === 'education' ? s.active : ''} ${
-    s.resumeBtn
-  }`;
-  const skillsClassName = `${activeComponent === 'skills' ? s.active : ''} ${
-    s.resumeBtn
-  }`;
 
-  // eslint-disable-next-line consistent-return
-  const returnRenderComponent = useCallback(() => {
-    if (activeComponent === 'education') {
+  const returnRenderComponent = useCallback((): ReactElement => {
+    if (activeComponent === ActiveContent.EDUCATION) {
       return <Education />;
     }
 
-    if (activeComponent === 'skills') {
+    if (activeComponent === ActiveContent.SKILLS) {
       return <Skills />;
     }
 
@@ -43,18 +48,18 @@ export const Resume: FC = () => {
       <div className={s.resumeBtnBox}>
         <button
           type="button"
-          onClick={experienceClickHandler}
           className={experienceClassName}
+          onClick={experienceClickHandler}
         >
           experience
         </button>
-        <button type="button" onClick={skillsClickHandler} className={skillsClassName}>
+        <button type="button" className={skillsClassName} onClick={skillsClickHandler}>
           skills
         </button>
         <button
           type="button"
-          onClick={educationClickHandler}
           className={educationClassName}
+          onClick={educationClickHandler}
         >
           education
         </button>

@@ -8,13 +8,39 @@ import calculator from '../projectCover/calculator.jpg';
 import pizza from '../projectCover/pizza.jpg';
 import countries from '../projectCover/countries.jpg';
 import alfacom from '../projectCover/alfacom.jpg';
-import myGuide from '../projectCover/my-guide.jpg';
+import arta from '../projectCover/arta.jpg';
+import HitMeal from '../projectCover/HitMeal.jpg';
+import chatOn from '../projectCover/chatOn.webp';
+import free_play from '../projectCover/free-play.webp';
+import InPulse from '../projectCover/InPulse.png';
+import hr from '../projectCover/hr.png';
+import school from '../projectCover/school.png';
+import force from '../projectCover/force.webp';
+import plantum from '../projectCover/plantum.png';
 import { ProjectItemType } from '../types';
 
 export const project: ProjectItemType[] = [
   {
     id: v1(),
-    heading: 'MeetQI',
+    heading: 'FreePlay (website)',
+    demo: 'https://freeplay.io/',
+    github: '',
+    image: free_play,
+    description:
+      'Website of the company "FreePlay", a manufacturer of mobile games for Android and iOS.',
+  },
+  {
+    id: v1(),
+    heading: 'AI-ARTA (website)',
+    demo: 'https://ai-arta.com/',
+    github: '',
+    image: arta,
+    description:
+      'A site referring to a mobile application for generating images using artificial intelligence.',
+  },
+  {
+    id: v1(),
+    heading: 'MeetQI (website)',
     demo: 'https://meetqi.com/',
     github: '',
     image: projectCover,
@@ -23,21 +49,75 @@ export const project: ProjectItemType[] = [
   },
   {
     id: v1(),
-    heading: 'Alfacom',
+    heading: 'Plantum (website)',
+    demo: 'https://myplantum.com/',
+    github: '',
+    image: plantum,
+    description:
+      'Identify 10K+ plants, flowers and trees with up to 95% accuracy! Become an expert in plant diseases with Plantum!',
+  },
+  {
+    id: v1(),
+    heading: 'IQHR (mobile app)',
+    demo: 'https://play.google.com/store/apps/details?id=ru.meshgroup.global.iqhr&hl=en_IE',
+    github: '',
+    image: hr,
+    description:
+      'Mobile application for recruitment by recruiters and job search for job seekers',
+  },
+  {
+    id: v1(),
+    heading: 'IQSchool (mobile app)',
+    demo: 'https://play.google.com/store/apps/details?id=ru.meshgroup.iqschool.global',
+    github: '',
+    image: school,
+    description:
+      'Mobile application for learning. A wide selection of programs is available for users of various levels and education levels',
+  },
+  {
+    id: v1(),
+    heading: 'IQForce (mobile app)',
+    demo: 'https://apps.apple.com/ru/app/iqforce/id6450367753?l=en-GB',
+    github: '',
+    image: force,
+    description:
+      'IQ Force is an innovative solution for optimizing the work of sales agents, supervisors, merchandisers and any field employees, combining a modular CRM system customizable for specific business processes and smart tools for working with routes based on Big Data and AI neural networks.',
+  },
+  {
+    id: v1(),
+    heading: 'HitMeal Quiz (mobile website)',
+    demo: 'https://hitmeal.app/quiz5/',
+    github: '',
+    image: HitMeal,
+    description:
+      'Website questionnaire for collecting information from users for further transfer to a mobile application.',
+  },
+  {
+    id: v1(),
+    heading: 'ChatOn (mobile website)',
+    demo: 'https://chaton.ai/web/',
+    github: '',
+    image: chatOn,
+    description:
+      'The website that users reach through advertising posters is designed to briefly familiarize themselves with the product and then be redirected to the subscription purchase page.',
+  },
+  {
+    id: v1(),
+    heading: 'InPulse Quiz (mobile website)',
+    demo: 'https://inpulse.app/landings/quiz1/',
+    github: '',
+    image: InPulse,
+    description:
+      'Website questionnaire for clients who use the InPulse mobile application.Яя',
+  },
+  {
+    id: v1(),
+    heading: 'Alfacom (mobile app)',
     demo: 'https://apkpure.com/alfacom/snapcode.alfa.alfacom',
     github: '',
     image: alfacom,
     description:
       'Mobile application for coordinating the work of taxi drivers from the call center. Drivers can also interact with customers, work with maps and navigation, request new tasks and pauses from operators, have direct contact with customers through chats and calls, etc. Implemented work in offline mode, location tracking, processing of push notifications, etc.',
-  },
-  {
-    id: v1(),
-    heading: 'My guide',
-    demo: 'https://apkpure.com/alfacom/snapcode.alfa.alfacom',
-    github: '',
-    image: myGuide,
-    description:
-      'Mobile application for online registration of tourist or other entertainment events. the user has access to a personal account, a page of proposed entertainment, messages, a general chat, video calls, etc.',
   },
   {
     id: v1(),
