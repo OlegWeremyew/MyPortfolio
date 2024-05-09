@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.828c29c4.css",
-    "main.js": "/MyPortfolio/static/js/main.c799587d.js",
+    "main.js": "/MyPortfolio/static/js/main.2432e67f.js",
     "static/media/plantum.png": "/MyPortfolio/static/media/plantum.47fc25684fcfc6d6035c.png",
     "static/media/InPulse.png": "/MyPortfolio/static/media/InPulse.9c14ef1d9420b8b8a281.png",
     "static/media/learnCards.jpg": "/MyPortfolio/static/media/learnCards.d51cfe933081d1701dcf.jpg",
@@ -9,8 +9,8 @@
     "static/media/arta.jpg": "/MyPortfolio/static/media/arta.2c103a091acce093f2cf.jpg",
     "static/media/hr.png": "/MyPortfolio/static/media/hr.69523f0ba860fb135d04.png",
     "static/media/school.png": "/MyPortfolio/static/media/school.2047a0ca23769c5d7a85.png",
-    "static/media/cv.pdf": "/MyPortfolio/static/media/cv.87b5ecffe41c3b5a1a40.pdf",
     "static/media/ava2red3.png": "/MyPortfolio/static/media/ava2red3.9c05c071b3d0874336ec.png",
+    "static/media/cv.pdf": "/MyPortfolio/static/media/cv.9986588bd73524222453.pdf",
     "static/media/pizza.jpg": "/MyPortfolio/static/media/pizza.ca577c0a654178da62e4.jpg",
     "static/media/socialNetWork.jpg": "/MyPortfolio/static/media/socialNetWork.c91422a8836abbe8f947.jpg",
     "static/media/HitMeal.jpg": "/MyPortfolio/static/media/HitMeal.b0a4977eac9b82fda7b5.jpg",
@@ -59,10 +59,10 @@
     "static/media/css3.svg": "/MyPortfolio/static/media/css3.b417eec5a18c9fb8b1054fa3500e3dcd.svg",
     "static/media/firebase.svg": "/MyPortfolio/static/media/firebase.c55df03130647cc8ee934a0a6ebecf70.svg",
     "main.828c29c4.css.map": "/MyPortfolio/static/css/main.828c29c4.css.map",
-    "main.c799587d.js.map": "/MyPortfolio/static/js/main.c799587d.js.map"
+    "main.2432e67f.js.map": "/MyPortfolio/static/js/main.2432e67f.js.map"
   },
   "entrypoints": [
     "static/css/main.828c29c4.css",
-    "static/js/main.c799587d.js"
+    "static/js/main.2432e67f.js"
   ]
 }
