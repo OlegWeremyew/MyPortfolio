@@ -50,8 +50,7 @@
 
       .personalInfoList {
         display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+        flex-flow: column wrap;
         list-style: none;
         padding: 0;
         height: 130px;
@@ -66,12 +65,12 @@
 
           .contentLink {
             color: $accentTextHover;
-            transition: all .5s linear;
+            transition: all 0.5s linear;
 
             &:hover {
               opacity: 0.6;
               text-decoration: none;
-              transition: all .5s linear;
+              transition: all 0.5s linear;
             }
           }
 
@@ -81,24 +80,22 @@
           }
         }
       }
-
     }
   }
 
   .resume {
     display: flex;
-    justify-content: center;
-    align-content: center;
+    place-content: center center;
     background-color: $bgFourth;
     border: 1px solid $line;
     width: 200px;
     border-radius: 3px;
-    transition: all .3s linear;
+    transition: all 0.3s linear;
 
     &:hover {
       background-color: $bgThird;
       border: 1px solid $accentText;
-      transition: all .3s linear;
+      transition: all 0.3s linear;
     }
 
     .resumeLink {
@@ -111,7 +108,7 @@
       width: inherit;
       font-weight: 700;
       text-align: center;
-      letter-spacing: .5px;
+      letter-spacing: 0.5px;
       color: $accentText;
       text-transform: uppercase;
       cursor: pointer;
@@ -128,8 +125,7 @@
   bottom: 0;
 }
 
-@media (max-width: 900px) {
-
+@media (width <= 900px) {
   .personalDesc {
     width: 100%;
 
@@ -137,16 +133,14 @@
       width: 100%;
     }
   }
-
 }
 
-@media (max-width: 600px) {
+@media (width <= 600px) {
   .personalBox {
     padding-bottom: 40px;
 
     .personalInfo {
       .personalInfoTitle {
-
         .personalIcon {
         }
 
@@ -176,15 +170,11 @@
             padding-bottom: 20px;
           }
         }
-
       }
     }
 
     .resume {
-
-
       .resumeLink {
-
       }
     }
   }

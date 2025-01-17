@@ -4,14 +4,13 @@
 
 .rightBox {
   position: absolute;
-  width: 100%;
-  height: 100%;
   overflow: hidden;
-  /*width: 66.6666666667%;*/
+
+  /* width: 66.6666666667%; */
   width: 65%;
   left: 33.3333333333% !important;
   padding: 0;
-  margin: 24px 0 0 0 ;
+  margin: 24px 0 0;
   top: 0;
   display: flex;
   flex-wrap: wrap;
@@ -20,14 +19,12 @@
   height: calc(100vh - 48px);
 }
 
-
 .container {
   margin: 0 auto;
   max-width: 1280px;
   width: 100%;
   padding-bottom: 50px;
 }
-
 
 .linkBack {
   position: absolute;
@@ -38,13 +35,10 @@
   z-index: 100;
 }
 
-
-
-@media (max-width: 1200px) {
-
+@media (width <= 1200px) {
 }
 
-@media (max-width: 900px) {
+@media (width <= 900px) {
   .rightBox {
     width: 100%;
     left: 0 !important;
@@ -53,7 +47,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (width <= 600px) {
   .linkBack {
     right: 20px;
     top: 10px;

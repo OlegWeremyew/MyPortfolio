@@ -9,7 +9,7 @@
   font-weight: 900;
   text-transform: uppercase;
   line-height: 110%;
-  margin: 2.3733333333rem 0 1.424rem 0;
+  margin: 2.3733333333rem 0 1.424rem;
   text-align: center;
   height: 60px;
 }
@@ -42,13 +42,12 @@
   vertical-align: middle;
   border-bottom: 3px solid $line;
   width: 25%;
-  transition: all .3s linear;
+  transition: all 0.3s linear;
 
   &:hover {
     border-bottom: 3px solid $accentText;
-    transition: all .3s linear;
+    transition: all 0.3s linear;
   }
-
 }
 
 .aboutIcon {
@@ -56,19 +55,17 @@
   color: $accentText;
   font-size: 20px;
   cursor: pointer;
-  transition: all .2s linear;
+  transition: all 0.2s linear;
 
   &:hover {
     margin: 0 20px;
     color: $primaryText;
     font-size: 20px;
-    transition: all .2s linear;
+    transition: all 0.2s linear;
   }
-
 }
 
-
-@media (max-width: 600px) {
+@media (width <= 600px) {
   .aboutTitle {
     font-size: 35px;
   }
