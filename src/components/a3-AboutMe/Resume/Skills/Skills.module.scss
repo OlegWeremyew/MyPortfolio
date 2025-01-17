@@ -2,7 +2,7 @@
 
 .skillBox {
   width: 100%;
-  box-shadow: 0px -3px 16px 3px $border;
+  box-shadow: 0 -3px 16px 3px $border;
 
   .skillHeadingBox {
     display: flex;
@@ -25,12 +25,12 @@
       font-size: 21px;
     }
   }
+
   .skillList {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-between;
+    place-content: space-between space-between;
     list-style: none;
 
     .skillItem {
@@ -41,15 +41,15 @@
       width: 30%;
       border-radius: 50%;
       min-height: 140px;
-      
+
       .aboutIcon {
         width: 50px;
         height: 50px;
-        transition: all .3s linear;
+        transition: all 0.3s linear;
 
         &:hover {
           opacity: 0.3;
-          transition: all .3s linear;
+          transition: all 0.3s linear;
         }
       }
 
@@ -58,16 +58,15 @@
         text-align: center;
         font-weight: 600;
         font-size: 15px;
-        word-wrap:  break-word;
-        transition: all .3s linear;
+        word-wrap: break-word;
+        transition: all 0.3s linear;
 
         &:hover {
           color: $accentTextHover;
           text-decoration: underline;
           cursor: pointer;
-          transition: all .3s linear;
+          transition: all 0.3s linear;
         }
-
       }
     }
   }
@@ -83,48 +82,53 @@
     animation-timing-function: ease-in;
     opacity: 0;
   }
+
   38% {
     transform: translateX(0);
     animation-timing-function: ease-out;
     opacity: 1;
   }
+
   55% {
     transform: translateX(68px);
     animation-timing-function: ease-in;
   }
+
   72% {
     transform: translateX(0);
     animation-timing-function: ease-out;
   }
+
   81% {
     transform: translateX(32px);
     animation-timing-function: ease-in;
   }
+
   90% {
     transform: translateX(0);
     animation-timing-function: ease-out;
   }
+
   95% {
     transform: translateX(8px);
     animation-timing-function: ease-in;
   }
+
   100% {
     transform: translateX(0);
     animation-timing-function: ease-out;
   }
 }
 
-@media (max-width: 900px) {
-
+@media (width <= 900px) {
   .skillBox {
-
     .skillHeadingBox {
       .skillHeading {
       }
     }
+
     .skillList {
       .skillItem {
-
         .aboutIcon {
           font-size: 20px;
         }
@@ -138,16 +142,13 @@
   }
 }
 
-
-
-@media (max-width: 600px) {
-
+@media (width <= 600px) {
   .skillBox {
-
     .skillHeadingBox {
       .skillHeading {
       }
     }
+
     .skillList {
       .skillItem {
         width: 48%;

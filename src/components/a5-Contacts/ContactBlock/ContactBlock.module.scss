@@ -54,13 +54,13 @@ li a:hover {
   opacity: 0.8;
 }
 
-@media (max-width: 1050px) {
+@media (width <= 1050px) {
   .contactText {
     font-size: 18px;
   }
 }
 
-@media (max-width: 600px) {
+@media (width <= 600px) {
   .contactBox {
     flex-direction: column;
     padding: 20px 24px;
@@ -75,6 +75,4 @@ li a:hover {
   .contactList li {
     width: 100%;
   }
-
-
 }

@@ -7,12 +7,14 @@
   justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 30px;
+
   .resumeBtnBox {
     display: flex;
     justify-content: center;
     width: 80%;
     padding-right: 24px;
   }
+
   .resumeComponentBox {
     display: flex;
     width: 90%;
@@ -22,7 +24,6 @@
   }
 }
 
-
 .resumeBtn {
   line-height: 110%;
   text-transform: uppercase;
@@ -30,8 +31,7 @@
   display: flex;
   align-items: center;
   outline: none;
-  justify-content: center;
-  align-content: center;
+  place-content: center center;
   background-color: $bgFourth;
   border: 1px solid $line;
   width: 200px;
@@ -39,22 +39,21 @@
   height: 40px;
   font-weight: 700;
   text-align: center;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   color: $accentText;
   cursor: pointer;
   border-radius: 3px;
-  transition: all .3s linear;
+  transition: all 0.3s linear;
 
   &:hover {
     background-color: $bgThird;
     border: 1px solid $accentText;
-    transition: all .3s linear;
+    transition: all 0.3s linear;
   }
 
-  @media (max-width: 450px){
+  @media (width <= 450px) {
     font-size: 13px;
   }
-
 }
 
 .active {
@@ -69,25 +68,23 @@
     background-color: $accentTextHover;
     border: 1px solid $accentTextHover;
   }
-
 }
 
-@media (max-width: 600px) {
-
-
+@media (width <= 600px) {
   .resumeBox {
     flex-direction: column;
+
     .resumeBtnBox {
       flex-direction: row;
       justify-content: space-between;
       width: 100%;
       padding: 0;
     }
+
     .resumeComponentBox {
       display: flex;
       width: 100%;
-      margin-left: 0px;
+      margin-left: 0;
     }
   }
-
 }
