@@ -8,8 +8,8 @@ export const Title: FC<TitleProps> = ({ title, accentTitle, icon }) => (
   <>
     <h2 className={s.aboutTitle}>
       <Tilt tiltMaxAngleY={10} tiltMaxAngleX={10}>
-        <span className={s.aboutTitle_white}>{title}</span>
-        <span className={s.aboutTitle_yellow}>{accentTitle}</span>
+        <span className={s.aboutTitleWhite}>{title}</span>
+        <span className={s.aboutTitleYellow}>{accentTitle}</span>
       </Tilt>
     </h2>
     <div className={s.aboutWrapperIcon}>
