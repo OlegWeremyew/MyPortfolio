@@ -1,0 +1,16 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "rules": {
+    "unit-allowed-list": ["%", "deg","px", "rem", "vh", "vw", "ms", "em", "s"],
+    "selector-class-pattern": [
+      "^[a-z][a-zA-Z0-9]+$",
+      {
+        "message": "Class name should be camelCase",
+        "severity": "error"
+      }
+    ],
+    "number-max-precision": 4,
+    "import-notation": null
+  },
+  "defaultSeverity": "warning"
+}
